@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+}
+.container-bg {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar{
+    background-color: brown;
+    text-align: center;
+}
+
+.navlink{
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    display: block;
+    transition: color 1s;
+    font-size: 25px;
+}
+.navlink:hover{
+    color: navy;
+    animation-fill-mode: forwards;
+}
+.content{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 350px;
+    height: auto;
+    position: relative;
+}
+
+button{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.5s;
+    font-size: 22px;
+}
+
+button:hover{
+    background-color:gray
+}
