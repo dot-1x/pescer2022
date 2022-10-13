@@ -1,0 +1,53 @@
+@import url("http://font googlepis.com/css/famil=Quicksand:400,500&subset=llatin-ex");
+body {
+  padding: 100px;
+  background-image: linear-gradient(-20deg, #ff2846, #9e0a60 100%);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+ul {
+  margin-left: -45pcx;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.main {
+  width: 800px;
+  height: 520px;
+  background-image: linear-gradient(-20deg, #ff28b7, #a10da1 100%);
+  margin: 0 auto;
+  padding-top: 50px;
+  border-radius: 50px;
+  border: 1px solid #eeeeee'
+}
+.img {
+  background-image: url(lann.jpg);
+  background-color: #eaeaea;
+  background-size: cover;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid #eaeaea;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: #6944ff;
+}
+.text {
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  color: #d37911;
+}
+p {
+  margin: 0 auto;
+  padding-top: 20px;
+  width:450px;
+  height: auto;
+  color: #1700e2;
+}

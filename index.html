@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/base.css">
+    <title>Kelompok Android</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="js/main.js"></script>
-    <title>HIMTI Unsiq</title>
+
 </head>
 <body>
-    <div class="container">
-        <img src="aset/cssbg.jpg" alt="" class="container-bg">
-        <div class="content" id="content">
-            <h1 style="text-align: center;">Kelompok 1</h1>
-            <img src="aset/andro.jpg" alt="" width="100px" height="100px" class="center">
-            <h1 style="color: white;">Anggota: </h1>
-            <script>
-                for (const key in ANGGOTA) {
-                    _link = document.createElement("a")
-                    _link.className = "navlink"
-                    _link.href = "anggota.html"
-                    _link.onclick = () => {localStorage.setItem("name", key)}
-                    _link.insertAdjacentText("afterBegin", key)
-                    document.getElementById("content").appendChild(_link)
-                }
-            </script>
-        </div>
-    </div>
+<div class="profile" id="main-profile">
+    <img src="aset/profil1.png">
+    <h1>ANDROID</h1>
+    <h2  style="margin-bottom: 10px;">Komting:</h2><a href="Anggota/Panji/index.html">Deni Panji Herlambang</a>
+    <pre style="margin-bottom: 10px;">Anggota:</pre>
+    <script>
+        ANGGOTAS.forEach((v,k) => {
+            _link = document.createElement("a")
+            // _link.className = "navlink"
+            _link.href = v.href
+            _link.onclick = () => {localStorage.setItem("name", k)}
+            _link.insertAdjacentText("afterBegin", k)
+            document.getElementById("main-profile").appendChild(_link)
+        })
+    </script>
+</div>
+
 </body>
 </html>
